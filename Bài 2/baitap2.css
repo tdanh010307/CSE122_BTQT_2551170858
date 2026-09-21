@@ -6,8 +6,9 @@ body {
 
 .container {
     background-color: #c9a227;
-    padding: 30px; /* Tạo khoảng trống xung quanh lề trong */
+    padding: 30px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 h1 {
@@ -16,21 +17,20 @@ h1 {
     color: white;
     margin-bottom: 30px;
 }
-.content-text {
+
+.paragraph {
+    color: #FFFFFF;
     width: 60%;
     float: left;
 }
-
-p {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+.picture{
+    float:right;
+    border:4px solid white;
+    box-sizing: border-box;
 }
 
-.im {
-    float: right;
-    border: 4px solid white; 
-    box-sizing: border-box;
+.picture img{
+    display:block;
+    max-width:100%;
+    height:auto;
 }
