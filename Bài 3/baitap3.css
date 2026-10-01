@@ -1,0 +1,42 @@
+body{
+  background: linear-gradient(to bottom, #7ec8e3,#0a5c8a );
+    
+}
+
+.bantin{
+  background: white;
+  border-radius: 10px;
+  padding: 20px; 
+}
+
+h1{
+  color:#0b3d5c ;
+  text-align: center;
+}
+
+.khoimodau{
+  background-color: #0b3d5c;
+  color:#FFFFFF ;
+  border-radius: 10px;
+  padding: 15px ;
+}
+
+img{
+  border-radius:10px;
+  width: 30%;
+}
+
+.lead{
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0.8;
+  padding-right: 8px;
+  color: #0a5c8a;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+}

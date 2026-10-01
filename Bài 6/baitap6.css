@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-top: 60px;
+}
+.main{
+    padding-left: 10px;
+}
+.picture {
+    margin-right: 30px;
+}
+
+img {
+    width: 260px;
+    height: auto;
+}
+body{
+    background-color: rgb(232, 204, 170);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+th{
+    background-color:  #E65100;
+    color:#ffffff;
+    text-align: left;
+    font-size: 16px;
+    padding: 12px 18px;
+}
+tr{
+    padding:12px 18px;
+    border-bottom: 1px solid#f0f0f0;
+    color: #333333;
+    font-size: 15px;
+}
+table tr td:first-child {
+width: 50px;
+text-align: center;
+font-weight: bold;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Hàng chẵn (2, 4, 6, 8): Màu nền kem nhạt khác biệt */
+tr:nth-child(even) {
+    background-color: #f7f1eb; 
+}
