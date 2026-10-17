@@ -1,0 +1,63 @@
+body{
+    background-color:gray;
+}
+
+h1{
+    background-color: white;
+    color:#1668C1 ;
+    border-bottom: 3px solid #1668C1;
+    padding: 15px;
+   margin: 0;
+}
+.chuyenmuc {
+    color:gray;
+    padding: 0px 10px 50px ;
+    width: 25%;
+    
+}
+h3{
+    background-color: #1668C1;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+h4{
+    color:#1668C1 ;
+}
+
+.tieude{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.container{
+    display: flex;
+    background-color: white;
+      margin: 0;
+     
+}
+
+a {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #1668C1;
+}
+.chuyenmuc p{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.text{
+float:inline-end;
+   width: 75%;
+    padding: 0px 17px 17px;
+    border-left:2px solid rgb(211, 209, 209) ;
+}
+img{
+    border-radius: 3px;
+    float:right
+}

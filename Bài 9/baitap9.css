@@ -1,0 +1,67 @@
+body{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(203, 199, 199) ;
+}
+.thehoso{
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 0px 5px 6px rgb(236, 233, 233);
+    overflow:hidden;
+    background-color: white;
+}
+.cottrai{
+    background:linear-gradient(to bottom,#1565C0,#0d3f7a) ;
+    width:280px;
+    padding:30px;
+}
+.cotphai{
+    padding:0px 30px 50px;
+}
+h2{
+    font-size:20px;
+    margin:0;
+    color:white;
+}
+h3{
+    font-size:18px;
+    border-bottom: 1px solid rgb(238, 220, 220) ;
+}
+.kynang{
+    display:flex;
+    gap:10px;
+    font-weight: bold;
+}
+.cottrai > div{
+    text-align: center;
+    color:white
+}
+p,a,li{
+    font-size: 13px;
+    margin:0;
+}
+h1{
+    width:90px;
+    height:90px;
+    margin: 0 auto 18px;
+    background-color: white;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#1565C0;
+}
+.kynang > p{
+    background-color: #e3f0ff;
+    color:#0d3f7a;
+    padding:3px 12px;
+    border-radius: 10px;
+}
+h3, a{
+    color:#1565C0;
+}
+li{
+    text-align: left;
+    color:white;
+    list-style: none;
+}
