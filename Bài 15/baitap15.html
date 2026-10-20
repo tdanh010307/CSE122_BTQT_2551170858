@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính</title>
+    <link rel="stylesheet" href="baitap15.css" class="">
+</head>
+
+<body>
+    <div class="maytinh">
+        <div class="manhinh">
+            <div class="nhappheptinh" id="nhappheptinh"></div>
+            <div class="ketqua" id='ketqua'>0</div>
+        </div>
+        <div class="banphim">
+            <button class="clear" onclick="clearCharacter()">C</button>
+            <button class="operator" onclick="appendCharacter('()')">()</button>
+            <button class="operator" onclick="appendCharacter('*1/100')">%</button>
+            <button class="operator" onclick="appendCharacter('/')">÷</button>
+
+            <button onclick="appendrCharacter('7')">7</button>
+            <button onclick="appendrCharacter('8')">8</button>
+            <button onclick="appendrCharacter('9')">9</button>
+            <button class="operator" onclick="appendCharacter('*')">x</button>
+
+            <button onclick="appendrCharacter('4')">4</button>
+            <button onclick="appendrCharacter('5')">5</button>
+            <button onclick="appendrCharacter('6')">6</button>
+            <button class="operator" onclick="appendCharacter('-')">-</button>
+
+             <button onclick="appendrCharacter('1')">1</button>
+            <button onclick="appendrCharacter('2')">2</button>
+            <button onclick="appendrCharacter('3')">3</button>
+            <button class="operator" onclick="appendCharacter('+')">+</button>
+
+            <button class ="so0" onclick="appendrCharacter('0')">0</button>
+            <button onclick="appendrCharacter('.')">.</button>
+            <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="baitap15.js"></script>
+</body>
+
+</html>

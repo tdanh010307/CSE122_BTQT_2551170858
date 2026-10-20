@@ -1,0 +1,50 @@
+.banner{
+    display: flex;
+}
+
+.menudoc{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background:linear-gradient(to bottom,  #C62828, #8E0000);
+}
+.logo{
+    height: 50px;
+}
+.banner{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    border-bottom: 1px solid rgb(211, 210, 210);
+}
+.container{
+    display: flex;
+}
+.quangcao{
+    width: 160px;
+}
+.noidungchinh{
+    padding: 15px;
+    width: 500px;
+}
+h1{
+    color: #C62828;
+}
+.menucon{
+    background-color:  #FFE082 ;
+    border-radius: 8px;
+    display: flex;
+    gap:20px;
+    padding:20px 20px;
+}
+.noidung{
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    padding: 20px;
+}
+.text{
+    text-align: center;
+}

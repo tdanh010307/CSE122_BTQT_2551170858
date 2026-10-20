@@ -1,0 +1,48 @@
+.maytinh{
+    background-color: #111827;
+    border-radius: 16px;
+    box-shadow: 0px 5px 5px grey;
+    padding:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.manhinh{
+    background-color: #022c22;
+    color:#4ade80;
+    border-radius: 16px;
+    padding: 60px 20px 20px 20px;
+}
+.banphim{
+    padding-top:20px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+}
+.so0{
+    grid-column: span 2;
+}
+button{
+    border-radius: 10px;
+    padding:20px;
+    color:white;
+    font-size: 20px;
+    background-color:  #25313f;
+}
+.clear{
+    background-color: red;
+}
+.operator{
+    background-color: #0d6efd;
+}
+.equal{
+    background-color: #16a34a;
+}
+.nhappheptinh, .ketqua{
+    text-align: right;
+    color:#4ade80;
+}
+.ketqua{
+    font-size: 40px;
+}
+.nhappheptinh{
+    font-size: 20px;
+}

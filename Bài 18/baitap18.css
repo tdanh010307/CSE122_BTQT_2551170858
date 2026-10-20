@@ -1,0 +1,31 @@
+h1,body>p{
+    color: #E65100 ;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+.khoihuongvi{
+    border-radius: 8px;
+    border: 2px solid  #2E7D32;
+    background-color: #f4fbf4 ;
+    padding: 10px;
+}
+.khoihuongvi>p{
+    padding-left: 10px;
+    color: #2E7D32 ;
+    font-weight: bold;
+    font-style: italic;
+}
+.huongvi{
+    display: flex;
+}
+.daude::first-letter{
+    font-size: 40px;
+    font-weight: bolder;
+    color:#E65100 ;
+    float:left;
+    line-height: 1;
+    margin-right: 8px;
+}

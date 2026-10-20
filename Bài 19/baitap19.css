@@ -1,0 +1,23 @@
+.trang{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+img{
+    box-shadow: 0px 15px 15px rgb(197, 194, 194);
+    width: 300px;
+    height: auto;
+}
+h1{
+    color: #C9A227 ;
+    text-shadow: 0px 7px 7px rgb(82, 79, 79);
+}
+.text{
+    border:2px dashed  #E07B00;
+    border-radius: 10px;
+    padding: 10px;
+}
+span{
+    font-weight: bold;
+    color:#C62828  ;
+}
