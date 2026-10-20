@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiệu ứng ảnh với CSS Filter </title>
+    <link rel="stylesheet" href="baitap20.css">
+</head>
+
+<body>
+    <svg style="display:none;">
+        <filter id="wave-filter">
+            <feTurbulence type="fractalNoise baseFrequency=0.05" numOctaves="2" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="" R yChannelSelector="G" />
+        </filter>
+    </svg>
+    <div class="container">
+        <div class="image-card">
+            <img id="flowerImage" src="hoahong.gif" alt="Hoa hồng" class="effect-gray">
+            <div class="text-title">Special For You</div>
+        </div>
+        <div class="button-group" id="buttonGroup">
+            <button class="active" onclick="setEffect(this,'effect-gray')">Gray</button>
+
+            <button onclick="setEffect(this,'effect-xray')">Xray</button>
+            <button onclick="setEffect(this,'effect-invert')">Invert</button>
+            <button onclick="setEffect(this,'effect-fliph')">FlipH</button>
+            <button onclick="setEffect(this,'effect-flipv')">FlipV</button>
+            <button onclick="setEffect(this,'effect-glow')">Glow</button>
+            <button onclick="setEffect(this,'effect-shadow')">Shadow</button>
+            <button onclick="setEffect(this,'effect-bold-shadow')">Bold Shadow</button>
+            <button onclick="setEffect(this,'effect-dropshadow')">DropShadow</button>
+            <button onclick="setEffect(this,'effect-blur')"> Blur</button>
+            <button onclick="setEffect(this,'effect-wave')">Wave</button>
+            <button onclick="setEffect(this,'effect-mark')"> Mask</button>
+            <button onclick="setEffect(this,'effect-alpha')">Alpha</button>
+
+        </div>
+    </div>
+
+    <script src="baitap20.js"></script>
+</body>
+
+</html>

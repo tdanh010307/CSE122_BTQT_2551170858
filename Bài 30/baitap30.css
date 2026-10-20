@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    width: 230px;
+    min-height: 100vh;
+    background-color: #212529;
+    color:white;
+    flex-shrink: 0;
+}
+.sidebar .brand-title {
+    font-size: 1.1 rem;
+    font-weight: 700;
+    padding: 20px 40px;
+    margin-bottom:10px;
+}
+.sidebar .nv-link{
+    color: rgba(255,255,255,0.75);
+    padding:10px 24px;
+    font-size:0.9 rem;
+    border-radius: 0;
+}
+.sidebar .nav-link:hover{
+    color:white;
+}
+.sidebar .nav-link.active{
+    background-color: #0d6efd  ;
+    color:white;
+}
+.main-content{
+    flex-grow:1;
+    padding:30px;
+}
+.card-stat{
+    border: 0;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.stat-value{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #212529;
+
+}
+.progress-stat{
+    height: 4px;
+    border-radius: 2px;
+    background-color: #e9ecef;
+}
+.bg-custom-blue{
+    background-color: #0d6efd !important;
+
+}
+.bg-custom-green{
+    background-color: #198754 !important;
+}
